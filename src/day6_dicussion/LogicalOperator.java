@@ -12,12 +12,12 @@ package day6_dicussion;
 public class LogicalOperator {
     public static void main(String[] args) {
         // && logical
-//        int num = 100;
-//        int num1 = 200;
-//        
-//        boolean result = num < num1 && num >num1;
-//        
-//        System.out.println(result);
+       int num = 100;
+       int num1 = 500;
+        
+        boolean result = num < num && num1 >num1;
+       
+        System.out.println(result);
         
         /*  &&          Result
             T   T       T
