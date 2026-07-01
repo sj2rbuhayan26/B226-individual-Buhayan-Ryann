@@ -9,7 +9,7 @@ package day10_activity;
  *
  * @author 03
  */
-public class Activity6_table2_Buhayan {
+public class Activity6_NestedforLoops_Buhayan {
      public static void main(String[] args) {
 
         // Outer loop for each multiplication table

@@ -11,9 +11,8 @@ import java.util.Scanner;
  *
  * @author 03
  */
-public class Activity6_table1_Buhayan {
+public class Activity6_ScannerClass_Buhayan {
 
-    // Main method
     public static void main(String[] args) {
 
         // Create the Scanner object
