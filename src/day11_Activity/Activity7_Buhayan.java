@@ -1,12 +1,12 @@
-package day11_Activity; // Package name
+package day11_Activity; 
 
-import java.util.Scanner; // Import Scanner class for user input
+import java.util.Scanner; 
 
-public class Activity7_Buhayan { // Class declaration
+public class Activity7_Buhayan { 
 
-    public static void main(String[] args) { // Main method
+    public static void main(String[] args) { 
 
-        Scanner input = new Scanner(System.in); // Create Scanner object
+        Scanner input = new Scanner(System.in); 
 
         // Declare an array that can store 5 integers
         int[] numbers = new int[5];
