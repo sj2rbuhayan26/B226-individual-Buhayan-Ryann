@@ -11,8 +11,6 @@ package day16_discussion;
  */
 public class Declarationmethod {
 
-
-
     public static void main(String[] args) {
         String name = "Ryann";
         int age = 20;
