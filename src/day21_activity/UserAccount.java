@@ -22,7 +22,7 @@ public class UserAccount {
         setEmail(email);
         setPassword(password);
     }
-
+    
     // Getters
     public String getFirstName() {
         return firstName;

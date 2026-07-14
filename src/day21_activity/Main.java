@@ -7,6 +7,9 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+        System.out.println("=========================");
+        System.out.println("User Account Registration");
+        System.out.println("=========================");
 
         System.out.print("Enter First Name: ");
         String firstName = input.nextLine();
@@ -45,6 +48,7 @@ public class Main {
 
         System.out.println("Email     : " + user.getEmail());
         System.out.println("Address   : " + user.getAddress());
+        System.out.println("===========================");
 
         input.close();
     }
