@@ -11,4 +11,9 @@ public class GcashPayment extends Payment {
     public void pay(double amount){
         System.out.println("Pay P " + amount + "Using Gcash Payment");
     }
+    
+    @Override
+    public void deposit(double amout, String refNum){
+        System.out.println("Deposit...");
+    }
 }
