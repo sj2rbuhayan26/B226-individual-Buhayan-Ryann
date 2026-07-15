@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Main {
 
+    static Scanner input = new Scanner(System.in);
+
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
         System.out.println("=========================");
         System.out.println("User Account Registration");
         System.out.println("=========================");
@@ -41,10 +42,10 @@ public class Main {
 
         // Display  the user information
         System.out.println("\n===== USER ACCOUNT =====");
-        System.out.println("Full Name : " +
-                user.getFirstName() + " " +
-                user.getMiddleName() + " " +
-                user.getLastName());
+        System.out.println("Full Name : "
+                + user.getFirstName() + " "
+                + user.getMiddleName() + " "
+                + user.getLastName());
 
         System.out.println("Email     : " + user.getEmail());
         System.out.println("Address   : " + user.getAddress());
