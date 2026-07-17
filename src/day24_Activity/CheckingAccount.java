@@ -14,7 +14,7 @@ public class CheckingAccount extends Account implements Transaction {
 
     @Override
     public void displayAccountInfo() {
-        System.out.println("      Checking Account ");
+        System.out.println("        Checking Account ");
         System.out.println("============================");
         System.out.println("Account Number : " + accountNumber);
         System.out.println("Account Holder : " + accountHolder);
